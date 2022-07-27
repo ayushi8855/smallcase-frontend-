@@ -27,10 +27,10 @@ smallcase is a fintech company building a trusted financial ecosystem with advis
 
 ## Authors
 
-- [ayushi8855](https://github.com/ayushi8855)
-- [atin-sahu](https://github.com/atin-sahu)
-- [iam-riyaz](https://github.com/iam-riyaz)
-- [jani474747](https://github.com/jani474747)
+- [Ayushi Jain](https://github.com/ayushi8855)
+- [Atin Sahu](https://github.com/atin-sahu)
+- [Riyaz Ahmad](https://github.com/iam-riyaz)
+- [Jani](https://github.com/jani474747)
 
 
 ## Deployment
