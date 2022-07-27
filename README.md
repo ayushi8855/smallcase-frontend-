@@ -9,7 +9,8 @@ smallcase is a fintech company building a trusted financial ecosystem with advis
 - CSS
 - BootStrap
 - JavaScript
-- Local Storage
+- MongoDB
+- Express
 
 
 
