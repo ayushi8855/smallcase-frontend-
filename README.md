@@ -37,14 +37,12 @@ smallcase is a fintech company building a trusted financial ecosystem with advis
 
 
 
-```bash
 
-🔗 Netlify--> smallcase7171.netlify.app/
-🔗 Medium Blog--> https://medium.com/@riyazahmad.online/smallcase-website-clone-a056c53d54ac
-🔗 backend repo-->  https://github.com/atin-sahu/smallcase-backend.git
+- [Netlify Link](https://smallcase7171.netlify.app/)
+- [Medium Blog](https://medium.com/@riyazahmad.online/smallcase-website-clone-a056c53d54ac)
+- [Backend Repo](https://github.com/atin-sahu/smallcase-backend.git)
 
 
-```
 
 
 ## Feedback
