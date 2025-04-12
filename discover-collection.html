@@ -212,10 +212,11 @@
     text_div_left.style.marginLeft = "30px"
     let png_div_left = document.createElement("div")
     png_div_left.style.width = "200px"
+    png_div_left.style.overflow = "hidden";
 
 
     let left_div_img = document.createElement("img")
-    left_div_img.src = "https://www.linkpicture.com/q/Screenshot-1264.png"
+    left_div_img.src = "./smallcase-static/download.svg"
     left_div_img.style.width = "100%"
     png_div_left.append(left_div_img)
 
@@ -261,7 +262,7 @@
 
 
     let right_div_img = document.createElement("img")
-    right_div_img.src = "https://www.linkpicture.com/q/Screenshot-1263_1.png"
+    right_div_img.src = "./smallcase-static/SCET_0005.png"
     right_div_img.style.height = "60%"
 
 
@@ -389,7 +390,7 @@
 <script>
     async function getitem() {
         try {
-            let res = await fetch(`https://smallcase-backend.onrender.com/specials`)
+            let res = await fetch(`https://smallcase01.herokuapp.com/specials`)
             let data = await res.json()
             again(data)
         } catch (err) {
@@ -446,7 +447,7 @@
 
     async function getcollection() {
         try {
-            let res = await fetch(`https://smallcase-backend.onrender.com/collections`)
+            let res = await fetch(`https://smallcase01.herokuapp.com/collections`)
             let data = await res.json()
             appendCollection(data)
         } catch (err) {
