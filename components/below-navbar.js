@@ -1,5 +1,5 @@
- function mini_navbar(){
-     return ` <div id="below-navbar">
+function mini_navbar() {
+    return ` <div id="below-navbar">
 
      <div id="left-side">
 
@@ -15,6 +15,6 @@
        
    </div>
    <hr id="myhr">`
- }
+}
 
- export {mini_navbar}
+export { mini_navbar }
