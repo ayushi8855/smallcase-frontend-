@@ -390,7 +390,7 @@
 <script>
     async function getitem() {
         try {
-            let res = await fetch(`https://smallcase01.herokuapp.com/specials`)
+            let res = await fetch(`https://smallcase-backend.onrender.com/specials`)
             let data = await res.json()
             again(data)
         } catch (err) {
@@ -447,7 +447,7 @@
 
     async function getcollection() {
         try {
-            let res = await fetch(`https://smallcase01.herokuapp.com/collections`)
+            let res = await fetch(`https://smallcase-backend.onrender.com/collections`)
             let data = await res.json()
             appendCollection(data)
         } catch (err) {

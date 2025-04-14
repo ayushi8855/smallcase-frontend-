@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container-sm d-grid col-4 mt-5 shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="container-sm d-grid col-12 col-md-6 col-lg-4 mt-5 shadow-lg p-3 mb-5 bg-body rounded">
         <div class="row">
             <div class="col-8">
                 <h3>Start investing with India’s largest brokerages</h3>
@@ -63,7 +63,7 @@
 
             registerData = JSON.stringify(registerData);
 
-            let res = await fetch("https://smallcase01.herokuapp.com/register", {
+            let res = await fetch("https://smallcase-backend.onrender.com/register", {
                 method: "POST",
                 body: registerData,
                 headers: {
